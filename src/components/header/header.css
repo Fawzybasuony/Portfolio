@@ -154,10 +154,10 @@ header .fixed ul.modal li a {
 ======================================== */
 @media (width < 700px) {
   header.flex nav {
-    display: none;
+    display: none !important;
   }
 
   header button.menu {
-    display: block;
+    display: block !important;
   }
 }

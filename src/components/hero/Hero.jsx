@@ -31,6 +31,7 @@ const Hero = () => {
         >
           Frontend Developer
         </motion.h1>
+ 
 
         <p className="sub-title">
           I’m Fawzy Basuony, a Frontend Developer based in Cairo. I transform
@@ -40,7 +41,7 @@ const Hero = () => {
           innovative solutions.
         </p>
 
-        <div className="all-icons flex">
+        <div className="all-icons flexx">
           <a
           className="icon"
 
@@ -76,8 +77,8 @@ const Hero = () => {
           </a>
         </div>
       </div>
-
-      <div className="right-section animation ">
+ 
+     <div className="right-section animation ">
         <Lottie
           lottieRef={lottieRef}
           onLoadedImages={() => {
@@ -87,7 +88,7 @@ const Hero = () => {
           }}
           animationData={devAnimation}
         />
-      </div>
+      </div> 
     </section>
   );
 };

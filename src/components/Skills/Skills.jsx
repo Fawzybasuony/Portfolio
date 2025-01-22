@@ -1,7 +1,7 @@
 import Buttom from "../main/Buttom";
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaNodeJs, FaReact, FaGithub } from "react-icons/fa";
-import { SiTailwindcss, SiFirebase, SiNextdotjs, SiRedux } from "react-icons/si";
+import { SiTailwindcss, SiFirebase, SiNextdotjs, SiRedux, SiExpress } from "react-icons/si";
 
 export default function Skillss({ title }) {
   const skills = [
@@ -10,12 +10,13 @@ export default function Skillss({ title }) {
     { name: "JavaScript", icon: <FaJs /> },
     { name: "Bootstrap", icon: <FaBootstrap /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-    { name: "GitHub", icon: <FaGithub /> },
+    { name: "GitHub & Git", icon: <FaGithub /> },
     { name: "Firebase", icon: <SiFirebase /> },
     { name: "Node.js", icon: <FaNodeJs /> },
+    { name: "Express.js", icon: <SiExpress /> },
     { name: "React", icon: <FaReact /> },
     { name: "Next.js", icon: <SiNextdotjs /> },
-    { name: "Redux", icon: <SiRedux /> },
+    { name: "ReduxToolkit", icon: <SiRedux /> },
   ];
 
   return (
