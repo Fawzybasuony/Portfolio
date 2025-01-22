@@ -1,4 +1,4 @@
-import Buttom from "../components/main/Buttom";
+import Buttom from "../main/Buttom";
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaNodeJs, FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiFirebase, SiNextdotjs, SiRedux } from "react-icons/si";

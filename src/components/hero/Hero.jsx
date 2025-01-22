@@ -16,9 +16,9 @@ const Hero = () => {
             initial={{ transform: "scale(0)" }}
             animate={{ transform: "scale(1.1)" }}
             transition={{ damping: 6, type: "spring", stiffness: 100 }}
-            src="/public/file.jpg"
+            src="./file.jpg"
             className="avatar"
-            alt=""
+            alt="My photo"
           />
           <div className="icon-verified"></div>
         </div>

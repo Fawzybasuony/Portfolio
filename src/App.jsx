@@ -4,7 +4,7 @@ import Main from "./components/main/Main";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import { useEffect, useState } from "react";
-import Skillss from "./Skills/Skills";
+import Skillss from "./components/Skills/Skills";
 
 function App() {
   useEffect(() => {
@@ -24,9 +24,9 @@ function App() {
 
       <Hero />
       <div className="divider" />
-      <Skillss />
+      <Skillss title={undefined} />
       <div className="divider" />
-      <Main />
+      <Main title={undefined} />
       <div className="divider" />
       <Contact />
       <div className="divider" />

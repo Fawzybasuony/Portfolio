@@ -4,6 +4,7 @@ import { myProjects } from "./myProjects";
 import { AnimatePresence, motion } from "framer-motion";
 import Buttom from "./Buttom";
 
+ 
 const Main = ({title}) => {
   const [expandedId, setExpandedId] = useState(null);
 

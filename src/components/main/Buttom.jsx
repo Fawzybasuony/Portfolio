@@ -5,7 +5,7 @@ export default function Buttom({title} ) {
     
     <>
       {/* From Uiverse.io by MuhammadHasann */}
-      <button className="button">
+      <button className="buttonAnmi">
         <div className="dots_border" />
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,5 @@
 /* From Uiverse.io by MuhammadHasann */
-.button {
+.buttonAnmi {
   --black-700: hsla(0 0% 12% / 1);
   --border_radius: 9999px;
   --transtion: 0.3s ease-in-out;
@@ -24,7 +24,7 @@
   transition: transform var(--transtion);
 }
 
-.button::before {
+.buttonAnmi::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -42,7 +42,7 @@
   z-index: 0;
 }
 
-.button::after {
+.buttonAnmi::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -67,14 +67,14 @@
   z-index: 2;
 }
 
-.button:is(:hover, :focus-visible) {
+.buttonAnmi:is(:hover, :focus-visible) {
   --active: 1;
 }
-.button:active {
+.buttonAnmi:active {
   transform: scale(1);
 }
 
-.button .dots_border {
+.buttonAnmi .dots_border {
   --size_border: calc(100% + 2px);
 
   overflow: hidden;
@@ -92,7 +92,7 @@
   z-index: -10;
 }
 
-.button .dots_border::before {
+.buttonAnmi .dots_border::before {
   content: "";
   position: absolute;
   top: 30%;
@@ -115,14 +115,14 @@
   }
 }
 
-.button .sparkle {
+.buttonAnmi .sparkle {
   position: relative;
   z-index: 10;
 
   width: 1.75rem;
 }
 
-.button .sparkle .path {
+.buttonAnmi .sparkle .path {
   fill: currentColor;
   stroke: currentColor;
 
@@ -131,17 +131,17 @@
   color: hsl(0, 0%, 100%);
 }
 
-.button:is(:hover, :focus) .sparkle .path {
+.buttonAnmi:is(:hover, :focus) .sparkle .path {
   animation: path 1.5s linear 0.5s infinite;
 }
 
-.button .sparkle .path:nth-child(1) {
+.buttonAnmi .sparkle .path:nth-child(1) {
   --scale_path_1: 1.2;
 }
-.button .sparkle .path:nth-child(2) {
+.buttonAnmi .sparkle .path:nth-child(2) {
   --scale_path_2: 1.2;
 }
-.button .sparkle .path:nth-child(3) {
+.buttonAnmi .sparkle .path:nth-child(3) {
   --scale_path_3: 1.2;
 }
 
@@ -163,7 +163,7 @@
   }
 }
 
-.button .text_button {
+.buttonAnmi .text_button {
   position: relative;
   z-index: 10;
 
