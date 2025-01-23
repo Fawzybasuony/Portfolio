@@ -12,17 +12,30 @@ const Hero = () => {
     <section className="hero flex">
       <div className="left-section  ">
         <div className="parent-avatar flex">
-          <motion.img
-            initial={{ transform: "scale(0)" }}
-            animate={{ transform: "scale(1.1)" }}
-            transition={{ damping: 6, type: "spring", stiffness: 100 }}
-            src="./file.jpg"
-            className="avatar"
-            alt="My photo"
-          />
-          <div className="icon-verified"></div>
+          <div className="flexx">
+            <motion.img
+              initial={{ transform: "scale(0)" }}
+              animate={{ transform: "scale(1.1)" }}
+              transition={{ damping: 6, type: "spring", stiffness: 100 }}
+              src="./file.jpg"
+              className="avatar"
+              alt="My photo"
+            />
+            <div className="icon-verified"></div>
+          </div>
+          <div className="right-sectionn ">
+            <Lottie
+              lottieRef={lottieRef}
+              onLoadedImages={() => {
+                // @ts-ignore
+                // https://lottiereact.com/
+                lottieRef.current.setSpeed(0.5);
+              }}
+              animationData={devAnimation}
+            />
+          </div>
         </div>
-
+ 
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -31,7 +44,6 @@ const Hero = () => {
         >
           Frontend Developer
         </motion.h1>
- 
 
         <p className="sub-title">
           I’m Fawzy Basuony, a Frontend Developer based in Cairo. I transform
@@ -43,8 +55,7 @@ const Hero = () => {
 
         <div className="all-icons flexx">
           <a
-          className="icon"
-
+            className="icon"
             href="https://www.facebook.com/share/15h8N4N7pR/?mibextid=wwXIfr"
             target="_blank"
             rel="noopener noreferrer"
@@ -52,8 +63,7 @@ const Hero = () => {
             <FaFacebook />
           </a>
           <a
-          className="icon"
-          
+            className="icon"
             href="https://wa.me/201060618915"
             target="_blank"
             rel="noopener noreferrer"
@@ -61,7 +71,7 @@ const Hero = () => {
             <SiWhatsapp />
           </a>
           <a
-          className="icon"
+            className="icon"
             href="https://github.com/Fawzybasuony?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
@@ -77,7 +87,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
- 
+      {/*  
      <div className="right-section animation ">
         <Lottie
           lottieRef={lottieRef}
@@ -88,7 +98,7 @@ const Hero = () => {
           }}
           animationData={devAnimation}
         />
-      </div> 
+      </div>  */}
     </section>
   );
 };

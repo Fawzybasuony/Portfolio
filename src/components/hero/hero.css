@@ -2,7 +2,8 @@
  table of contents
 ==============================
 1. Left Section
-2. Right Section ==> animation*/
+2. Right Section ==> animation
+============================== */
 
 section.hero {
   margin-top: 3rem;
@@ -12,9 +13,11 @@ section.hero {
     1. Left Section
 =========================== */
 section.hero .parent-avatar.flex {
-  align-items: end;  
-  gap: 0.6rem;
-  min-height: 88px;
+  display: flex; /* استخدام flexbox */
+  align-items: center; /* توسيط العناصر عموديًا */
+  justify-content: space-between;
+  gap: 1rem; /* مسافة بين العناصر */
+  min-height: 90px;
 }
 
 section.hero .left-section {
@@ -24,12 +27,10 @@ section.hero .left-section {
 section.hero .icon-verified {
   color: var(--blue);
   font-size: 1.1rem;
-  margin-bottom: 0.3rem;
 }
 
 section.hero .avatar {
   width: 88px;
-
   border-radius: 50%;
   border: 1px solid darkorange;
   padding: 1px;
@@ -48,6 +49,7 @@ section.hero p.sub-title {
   font-size: 0.9rem;
   line-height: 1.65rem;
   margin-bottom: 32px;
+  width: 85%;
 }
 
 section.hero .all-icons {
@@ -63,19 +65,15 @@ section.hero .all-icons .icon:hover {
   color: var(--icon-hover);
 }
 
-.flexx{
+.flexx {
   display: flex;
-  }
-/* ===================================
-    2. Right Section ==> animation
-====================================== */
-section.hero .animation {
-  width: 100%;
-  translate: 100px 55px;
+  /* align-items: flex-end; */
 }
 
-@media (max-width: 1250px) {
-  section.hero .animation {
-    display: none;
+ 
+
+@media (min-width: 700px) {
+  .right-sectionn{
+    width: 300px;
   }
-}
+  }

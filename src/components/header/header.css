@@ -10,7 +10,6 @@
     1. Header Design
 =========================== */
 header.flex {
-  justify-content: space-between;
   padding: 0 2.4rem;
   margin-top: 1.2rem;
 }
@@ -20,6 +19,8 @@ header.flex nav {
   padding: 0.77rem 1.6rem;
   border-radius: 55px;
   box-shadow: 1px 1px 40px #2323242a;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header ul.flex {
@@ -118,8 +119,7 @@ header .fixed {
 header .fixed ul.modal {
   animation: mymove 0.77s 1;
   width: 75%;
-margin-inline: auto;
-
+  margin-inline: auto;
 
   margin-top: 2rem;
   border-radius: 1rem;
