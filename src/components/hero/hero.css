@@ -30,7 +30,7 @@ section.hero .icon-verified {
 }
 
 section.hero .avatar {
-  width: 88px;
+  width: 110px;
   border-radius: 50%;
   border: 1px solid darkorange;
   padding: 1px;
@@ -67,7 +67,7 @@ section.hero .all-icons .icon:hover {
 
 .flexx {
   display: flex;
-  /* align-items: flex-end; */
+  align-items: flex-end;
 }
 
  

@@ -1,12 +1,13 @@
 import "./contact.css";
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm, ValidationError } from '@formspree/react';
 import Lottie from "lottie-react";
 import doneAnimation from "../../animation/done.json";
 import contactAnimation from "../../animation/contact.json";
 
 const Contact = () => {
    
-  const [state, handleSubmit] = useForm("your-fawzybb123@gmail.com-here");
+  const [state, handleSubmit] = useForm("movjvbzo");
+ 
   return (
     <section className="contact-us">
       <h1 className="title">
@@ -19,7 +20,7 @@ const Contact = () => {
       </p>
 
       <div style={{ justifyContent: "space-between" }} className="flex">
-        <form onSubmit={handleSubmit} className="">
+        <form   onSubmit={handleSubmit} className="">
           <div className="flex">
             <label htmlFor="email">Email Address:</label>
             <input
