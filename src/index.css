@@ -191,7 +191,7 @@ html {
 }
 
 
-@media (min-width: 368px) {
+@media (min-width: 300px) {
   .service-item {
     display: flex;  
     flex-wrap: wrap;  
