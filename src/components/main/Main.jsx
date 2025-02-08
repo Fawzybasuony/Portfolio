@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Buttom from "./Buttom";
 
  
+ 
 const Main = ({title}) => {
   const [expandedId, setExpandedId] = useState(null);
 
@@ -28,12 +29,13 @@ const Main = ({title}) => {
                 key={item.id}
                 className="card"
               >
-                <img
-                  width={266}
-                  height={200}
-                  src={item.imgPath}
-                  alt={item.projectTitle}
-                />
+                  <img
+                    width={266}
+                    height={200}
+                    src={item.imgPath}
+                    alt={item.projectTitle}
+                     
+                  />
 
                 <div style={{ width: "266px" }} className="box">
                   <h1 className="title">{item.projectTitle}</h1>
