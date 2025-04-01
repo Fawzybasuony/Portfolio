@@ -1,24 +1,23 @@
+// @ts-nocheck
 import { useState } from "react";
 import "./main.css";
 import { myProjects } from "./myProjects";
 import { AnimatePresence, motion } from "framer-motion";
 import Buttom from "./Buttom";
 
- 
- 
-const Main = ({title}) => {
+const Main = ({ title }) => {
   const [expandedId, setExpandedId] = useState(null);
 
   return (
     <main className=" ">
       {/* button */}
 
-      <Buttom title="My Projects"/>
+      <Buttom title="My Projects" />
       {/* All projects */}
       <section className="flex right-section">
         <AnimatePresence>
           {myProjects.map((item) => {
-            const isExpanded = item.id ===    expandedId;
+            const isExpanded = item.id === expandedId;
 
             return (
               <motion.article
@@ -29,13 +28,12 @@ const Main = ({title}) => {
                 key={item.id}
                 className="card"
               >
-                  <img
-                    width={266}
-                    height={200}
-                    src={item.imgPath}
-                    alt={item.projectTitle}
-                     
-                  />
+                <img
+                  width={266}
+                  height={200}
+                  src={item.imgPath}
+                  alt={item.projectTitle}
+                />
 
                 <div style={{ width: "266px" }} className="box">
                   <h1 className="title">{item.projectTitle}</h1>

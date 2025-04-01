@@ -1,22 +1,21 @@
 export const myProjects = [
 
-
   {
     id: 1, 
-      imgPath: "https://dev.depowebeg.com/images/Portfolio/Sophomore.webp",
+    imgPath: "https://depowebeg.com/images/logo.svg",
+    projectTitle: "DepoWeb",
+    projectTag: " React, Tailwind CSS, and additional libraries",
+    projectLink: "https://depowebeg.com/",
+    description:
+      "Developed the official company website with a modern, responsive, and visually appealing design, ensuring seamless navigation, fast performance, and an engaging user experience across all devices.",
+  },
+  {
+    id: 2, 
+      imgPath: "https://depowebeg.com/images/Portfolio/Sophomore.webp",
       projectTitle: "Sophomore",
     projectTag: "React, ReduxToolkit & Tailwind,css",
     projectLink: "https://sophomore.dev.depowebeg.com/",
     description:"  Developed an educational platform where students can purchase courses, teachers have a dashboard to manage their courses, and a super admin oversees the entire system. Used React, Tailwind CSS, Redux Toolkit, and supporting libraries to build an interactive and scalable UI."
-  },
-  {
-    id: 2, 
-    imgPath: "https://dev.depowebeg.com/images/logo.svg",
-    projectTitle: "DepoWeb",
-    projectTag: " React, Tailwind CSS, and additional libraries",
-    projectLink: "https://dev.depowebeg.com/",
-    description:
-      "Developed the official company website with a modern, responsive, and visually appealing design, ensuring seamless navigation, fast performance, and an engaging user experience across all devices.",
   },
 
 
