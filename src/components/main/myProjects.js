@@ -2,19 +2,19 @@ export const myProjects = [
 
   {
     id: 1, 
-    imgPath: "https://depowebeg.com/images/logo.svg",
+    imgPath: "/logo_depo.jpeg",
     projectTitle: "DepoWeb",
     projectTag: " React, Tailwind CSS, and additional libraries",
-    projectLink: "https://depowebeg.com/",
+    projectLink: "https://www.linkedin.com/posts/fawzy-basuony-0592b32a6_im-super-excited-to-share-one-of-my-key-activity-7316263547678736385-GYkx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6B4UBm3vvCHgvEpOmgx-7q_5X0edifT8",
     description:
       "Developed the official company website with a modern, responsive, and visually appealing design, ensuring seamless navigation, fast performance, and an engaging user experience across all devices.",
   },
   {
     id: 2, 
-      imgPath: "https://depowebeg.com/images/Portfolio/Sophomore.webp",
+      imgPath: "/Sophomore.jpeg",
       projectTitle: "Sophomore",
     projectTag: "React, ReduxToolkit & Tailwind,css",
-    projectLink: "https://sophomore.dev.depowebeg.com/",
+    projectLink: "https://www.linkedin.com/posts/fawzy-basuony-0592b32a6_im-thrilled-to-share-my-latest-work-at-depo-activity-7316257594161963009-nMtM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6B4UBm3vvCHgvEpOmgx-7q_5X0edifT8",
     description:"  Developed an educational platform where students can purchase courses, teachers have a dashboard to manage their courses, and a super admin oversees the entire system. Used React, Tailwind CSS, Redux Toolkit, and supporting libraries to build an interactive and scalable UI."
   },
 
