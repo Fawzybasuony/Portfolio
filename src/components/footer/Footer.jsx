@@ -18,7 +18,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      <p>© 2025 Spencer Sharp. All rights reserved.</p>
+      <p>© 2025 Fawzy Basuony. All rights reserved.</p>
     </footer>
   );
 };

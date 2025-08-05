@@ -13,10 +13,10 @@ section.hero {
     1. Left Section
 =========================== */
 section.hero .parent-avatar.flex {
-  display: flex; /* استخدام flexbox */
-  align-items: center; /* توسيط العناصر عموديًا */
+  display: flex;  
+  align-items: center; 
   justify-content: space-between;
-  gap: 1rem; /* مسافة بين العناصر */
+  gap: 1rem; 
   min-height: 90px;
 }
 
@@ -67,7 +67,8 @@ section.hero .all-icons .icon:hover {
 
 .flexx {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
+ 
 }
 
  

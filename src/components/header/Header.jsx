@@ -5,7 +5,7 @@ const Header = () => {
   const [showModal, setshowModal] = useState(false);
 
   return (
-    <header className="  flex">
+    <header className="flex">
       <button
         onClick={() => {
           setshowModal(true);

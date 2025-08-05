@@ -1,23 +1,23 @@
+// @ts-nocheck
 import { useState } from "react";
 import "./main.css";
 import { myProjects } from "./myProjects";
 import { AnimatePresence, motion } from "framer-motion";
 import Buttom from "./Buttom";
 
- 
-const Main = ({title}) => {
+const Main = ({ title }) => {
   const [expandedId, setExpandedId] = useState(null);
 
   return (
     <main className=" ">
       {/* button */}
 
-      <Buttom title="My Projects"/>
+      <Buttom title="My Projects" />
       {/* All projects */}
       <section className="flex right-section">
         <AnimatePresence>
           {myProjects.map((item) => {
-            const isExpanded = item.id ===    expandedId;
+            const isExpanded = item.id === expandedId;
 
             return (
               <motion.article
