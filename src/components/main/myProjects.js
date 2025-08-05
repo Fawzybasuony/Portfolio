@@ -39,16 +39,16 @@ export const myProjects = [
     description:
       "A gym membership website developed with React.js. This project allows users to explore gym services, view membership plans, and sign up online. The website features a responsive design, ensuring it works flawlessly on all devices. It also includes a contact form for inquiries and a gallery section to showcase the gym's facilities.",
   },
-  {
-    id: 5, // إضافة id
-    imgPath: "https://themazine.com/html/alquran/assets/images/resource/course-1.jpg",
-    projectTitle: "Rtel Academy",
-    projectTag: "React.js",
-    projectLink: "https://rtel-academy.netlify.app/",
-    githubLink: "https://github.com/Fawzybasuony/Rtel-Academy",
-    description:
-      "An online learning platform built with React.js. This project offers a variety of courses, allowing users to enroll and track their progress. The platform includes features like course categorization, user authentication, and a dashboard for managing enrolled courses. The UI is designed to be engaging and easy to navigate, enhancing the learning experience.",
-  },
+  // {
+  //   id: 5, // إضافة id
+  //   imgPath: "https://themazine.com/html/alquran/assets/images/resource/course-1.jpg",
+  //   projectTitle: "Rtel Academy",
+  //   projectTag: "React.js",
+  //   projectLink: "https://rtel-academy.netlify.app/",
+  //   githubLink: "https://github.com/Fawzybasuony/Rtel-Academy",
+  //   description:
+  //     "An online learning platform built with React.js. This project offers a variety of courses, allowing users to enroll and track their progress. The platform includes features like course categorization, user authentication, and a dashboard for managing enrolled courses. The UI is designed to be engaging and easy to navigate, enhancing the learning experience.",
+  // },
   {
     id: 6, // إضافة id
     imgPath: "./3961975.jpg",
