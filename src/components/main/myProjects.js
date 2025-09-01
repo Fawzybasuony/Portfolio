@@ -30,7 +30,6 @@ export const myProjects = [
       "Developed the official company website with a modern, responsive, and visually appealing design, ensuring seamless navigation, fast performance, and an engaging user experience across all devices.",
   },
 
-
   {
     id: 4,
     imgPath: "./proj_1.jpeg",
@@ -73,8 +72,7 @@ export const myProjects = [
   },
   {
     id: 8,
-    imgPath:
-      "./Rtel Academy.png",
+    imgPath: "./Rtel Academy.png",
     projectTitle: "Rtel Academy",
     projectTag: "React.js & Talwind.CSS",
     projectLink: "https://rtel-academy.netlify.app/",
