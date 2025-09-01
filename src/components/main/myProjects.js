@@ -74,7 +74,7 @@ export const myProjects = [
   {
     id: 8,
     imgPath:
-      "https://themazine.com/html/alquran/assets/images/resource/course-1.jpg",
+      "./Rtel Academy.png",
     projectTitle: "Rtel Academy",
     projectTag: "React.js & Talwind.CSS",
     projectLink: "https://rtel-academy.netlify.app/",
