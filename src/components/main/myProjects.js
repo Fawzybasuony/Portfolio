@@ -1,5 +1,15 @@
 export const myProjects = [
   {
+    id: 0,
+    imgPath: "/NOVAGATES.png",
+    projectTitle: "Novagates",
+    projectTag:
+      "Next.js, Tailwind CSS, i18n,Swiper.js , and additional libraries ",
+    projectLink: "https://dev.novagates.com/en",
+    description:
+      "Designed and developed the official company website with a fully responsive UI using React and Tailwind CSS. I also built a custom admin dashboard powered by Supabase for managing users, courses, and service requests — ensuring smooth data flow and real-time updates.",
+  },
+  {
     id: 1,
     imgPath:
       "https://storage.googleapis.com/hostinger-horizons-assets-prod/4625d2a6-43e0-4950-8944-40bece167e3d/689d34bb3213c1a729ec9d346f5a342c.png",
@@ -21,14 +31,14 @@ export const myProjects = [
   },
   {
     id: 3,
-    imgPath: "/logo_depo.jpeg",
-    projectTitle: "DepoWeb",
-    projectTag: " React, Tailwind CSS, and additional libraries",
+    imgPath: "/teachme.png",
+    projectTitle: "Teach Me",
+    projectTag: " React, Tailwind CSS, Swiper.js ,Supabase, Hook Form, and additional libraries",
     projectLink:
-      "https://www.linkedin.com/posts/fawzy-basuony-0592b32a6_im-super-excited-to-share-one-of-my-key-activity-7316263547678736385-GYkx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6B4UBm3vvCHgvEpOmgx-7q_5X0edifT8",
-    description:
-      "Developed the official company website with a modern, responsive, and visually appealing design, ensuring seamless navigation, fast performance, and an engaging user experience across all devices.",
-  },
+     "https://teachme-gold.vercel.app/",
+    description: 
+    "A comprehensive EdTech platform empowering educators with full content management. Teachers can create courses and organize lessons into units with complete CRUD functionality. The platform features a secure checkout for students, allows viewing free trial sessions, and delivers a seamless, interactive learning experience with high performance and full responsiveness."
+   },
 
   {
     id: 4,
@@ -70,16 +80,16 @@ export const myProjects = [
     description:
       "A gym membership website developed with React.js. This project allows users to explore gym services, view membership plans, and sign up online. The website features a responsive design, ensuring it works flawlessly on all devices. It also includes a contact form for inquiries and a gallery section to showcase the gym's facilities.",
   },
-  {
-    id: 8,
-    imgPath: "./Rtel Academy.png",
-    projectTitle: "Rtel Academy",
-    projectTag: "React.js & Talwind.CSS",
-    projectLink: "https://rtel-academy.netlify.app/",
-    githubLink: "https://github.com/Fawzybasuony/Rtel-Academy",
-    description:
-      "An online learning platform built with React.js. This project offers a variety of courses, allowing users to enroll and track their progress. The platform includes features like course categorization, user authentication, and a dashboard for managing enrolled courses. The UI is designed to be engaging and easy to navigate, enhancing the learning experience.",
-  },
+  // {
+  //   id: 8,
+  //   imgPath: "./Rtel Academy.png",
+  //   projectTitle: "Rtel Academy",
+  //   projectTag: "React.js & Talwind.CSS",
+  //   projectLink: "https://rtel-academy.netlify.app/",
+  //   githubLink: "https://github.com/Fawzybasuony/Rtel-Academy",
+  //   description:
+  //     "An online learning platform built with React.js. This project offers a variety of courses, allowing users to enroll and track their progress. The platform includes features like course categorization, user authentication, and a dashboard for managing enrolled courses. The UI is designed to be engaging and easy to navigate, enhancing the learning experience.",
+  // },
   {
     id: 9,
     imgPath: "./3961975.jpg",

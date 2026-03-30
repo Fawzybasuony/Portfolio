@@ -5,6 +5,7 @@ import { myProjects } from "./myProjects";
 import { AnimatePresence, motion } from "framer-motion";
 import Buttom from "./Buttom";
 
+// eslint-disable-next-line react/prop-types
 const Main = ({ title }) => {
   const [expandedId, setExpandedId] = useState(null);
 
@@ -24,20 +25,22 @@ const Main = ({ title }) => {
                 layout
                 initial={{ transform: "scale(0.4)" }}
                 animate={{ transform: "scale(1)" }}
+                
                 transition={{ type: "spring", damping: 8, stiffness: 50 }}
                 key={item.id}
-                className="card"
+                className="card "
               >
                 <img
+                  className="object-fit-cover"
                   width={266}
                   height={200}
                   src={item.imgPath}
                   alt={item.projectTitle}
                 />
 
-                <div style={{ width: "266px" }} className="box">
+                <div style={{ width: "266px", }} className="box">
                   <h1 className="title">{item.projectTitle}</h1>
-                  <p className="sub-title">{item.projectTag}</p>
+                  <p style={{height:"50px"}} className="sub-title">{item.projectTag}</p>
 
                   <AnimatePresence>
                     {isExpanded && (
