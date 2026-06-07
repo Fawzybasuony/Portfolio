@@ -35,7 +35,7 @@ const Hero = () => {
             />
           </div>
         </div>
- 
+
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -46,11 +46,10 @@ const Hero = () => {
         </motion.h1>
 
         <p className="sub-title">
-          I’m Fawzy Basuony, a Frontend Developer based in Cairo. I transform
-          ideas into interactive digital experiences using React.js and Next.js.
-          Passionate about building smooth, engaging interfaces and optimizing
-          performance. Always eager for new challenges to grow and deliver
-          innovative solutions.
+          I’m Fawzy Basuony, a Frontend Developer with 3+ years of experience building scalable, high-performance web applications using
+          React.js and Next.js, with expertise in ERP systems, admin dashboards, e-learning platforms, and AI-integrated
+          solutions. Strong in TypeScript, Tailwind CSS, Redux Toolkit, TanStack Query, RESTful APIs, and modern frontend
+          architecture focused on performance, SEO, and responsive design.
         </p>
 
         <div className="all-icons flexx">

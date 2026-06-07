@@ -5,7 +5,7 @@ export const myProjects = [
     projectTitle: "Novagates",
     projectTag:
       "Next.js, Tailwind CSS, i18n,Swiper.js , and additional libraries ",
-    projectLink: "https://dev.novagates.com/en",
+    projectLink: "https://staging.novagates.com/en",
     description:
       "Designed and developed the official company website with a fully responsive UI using React and Tailwind CSS. I also built a custom admin dashboard powered by Supabase for managing users, courses, and service requests — ensuring smooth data flow and real-time updates.",
   },
@@ -19,8 +19,28 @@ export const myProjects = [
     description:
       "Designed and developed the official company website with a fully responsive UI using React and Tailwind CSS. I also built a custom admin dashboard powered by Supabase for managing users, courses, and service requests — ensuring smooth data flow and real-time updates.",
   },
+
   {
     id: 2,
+    imgPath: "/Fatora.png",
+    projectTitle: "Fatora (ERP Platform)",
+    projectTag: "React, Tailwind CSS, and additional libraries",
+    projectLink: "https://fatora.org",
+    description:
+      " Developed frontend architecture for ERP platform Built responsive admin dashboards using React.js and Tailwind CSS.Created reusable components for scalable business operations",
+  },
+  {
+    id: 3,
+    imgPath: "/teachme.png",
+    projectTitle: "Teach Me",
+    projectTag:
+      " React, Tailwind CSS, Swiper.js ,Supabase, Hook Form, and additional libraries",
+    projectLink: "https://teachme-gold.vercel.app/",
+    description:
+      "A comprehensive EdTech platform empowering educators with full content management. Teachers can create courses and organize lessons into units with complete CRUD functionality. The platform features a secure checkout for students, allows viewing free trial sessions, and delivers a seamless, interactive learning experience with high performance and full responsiveness.",
+  },
+  {
+    id: 4,
     imgPath: "/Sophomore.jpeg",
     projectTitle: "Sophomore",
     projectTag: "React, ReduxToolkit & Tailwind,css",
@@ -28,27 +48,6 @@ export const myProjects = [
       "https://www.linkedin.com/posts/fawzy-basuony-0592b32a6_im-thrilled-to-share-my-latest-work-at-depo-activity-7316257594161963009-nMtM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6B4UBm3vvCHgvEpOmgx-7q_5X0edifT8",
     description:
       "  Developed an educational platform where students can purchase courses, teachers have a dashboard to manage their courses, and a super admin oversees the entire system. Used React, Tailwind CSS, Redux Toolkit, and supporting libraries to build an interactive and scalable UI.",
-  },
-  {
-    id: 3,
-    imgPath: "/teachme.png",
-    projectTitle: "Teach Me",
-    projectTag: " React, Tailwind CSS, Swiper.js ,Supabase, Hook Form, and additional libraries",
-    projectLink:
-     "https://teachme-gold.vercel.app/",
-    description: 
-    "A comprehensive EdTech platform empowering educators with full content management. Teachers can create courses and organize lessons into units with complete CRUD functionality. The platform features a secure checkout for students, allows viewing free trial sessions, and delivers a seamless, interactive learning experience with high performance and full responsiveness."
-   },
-
-  {
-    id: 4,
-    imgPath: "./proj_1.jpeg",
-    projectTitle: "E-Commerce",
-    projectTag: "React.js & Redux Toolkit",
-    projectLink: "https://project-commerce.netlify.app",
-    githubLink: "https://github.com/Fawzybasuony/E-ommerce-React-Redux",
-    description:
-      "A fully functional e-commerce platform built with React.js and Redux Toolkit. This project includes features like product listing, shopping cart management, and a seamless checkout process. The use of Redux Toolkit ensures efficient state management, making the application fast and responsive. The UI is designed to be user-friendly, providing a smooth shopping experience.",
   },
   {
     id: 5,
@@ -62,6 +61,17 @@ export const myProjects = [
   },
   {
     id: 6,
+    imgPath: "./proj_1.jpeg",
+    projectTitle: "E-Commerce",
+    projectTag: "React.js & Redux Toolkit",
+    projectLink: "https://project-commerce.netlify.app",
+    githubLink: "https://github.com/Fawzybasuony/E-ommerce-React-Redux",
+    description:
+      "A fully functional e-commerce platform built with React.js and Redux Toolkit. This project includes features like product listing, shopping cart management, and a seamless checkout process. The use of Redux Toolkit ensures efficient state management, making the application fast and responsive. The UI is designed to be user-friendly, providing a smooth shopping experience.",
+  },
+
+  {
+    id: 7,
     imgPath: "./360_F.jpg",
     projectTitle: "Movie",
     projectTag: "React.js & Bootstrap",
@@ -71,7 +81,7 @@ export const myProjects = [
       "A movie and TV show browsing platform built with React.js. This project allows users to search, filter, and explore a wide range of movies and TV shows. It integrates with a movie API to fetch real-time data, providing users with up-to-date information. The UI is clean and modern, offering a seamless browsing experience.",
   },
   {
-    id: 7,
+    id: 8,
     imgPath: "./slide-01.jpg",
     projectTitle: "Gym Website",
     projectTag: "React.js & Bootstrap",
@@ -90,14 +100,14 @@ export const myProjects = [
   //   description:
   //     "An online learning platform built with React.js. This project offers a variety of courses, allowing users to enroll and track their progress. The platform includes features like course categorization, user authentication, and a dashboard for managing enrolled courses. The UI is designed to be engaging and easy to navigate, enhancing the learning experience.",
   // },
-  {
-    id: 9,
-    imgPath: "./3961975.jpg",
-    projectTitle: "To Do List",
-    projectTag: "React.js & Bootstrap & Local Storage",
-    projectLink: "https://1-todo-list.netlify.app/",
-    githubLink: "https://github.com/Fawzybasuony/TO_Do_List_local_Storege",
-    description:
-      "A simple yet powerful to-do list application built with React.js and Local Storage. This project allows users to create, update, and delete tasks, with all data stored locally in the browser. The use of Local Storage ensures that tasks persist even after the browser is closed. The UI is minimalistic and user-friendly, making task management effortless.",
-  },
+  // {
+  //   id: 9,
+  //   imgPath: "./3961975.jpg",
+  //   projectTitle: "To Do List",
+  //   projectTag: "React.js & Bootstrap & Local Storage",
+  //   projectLink: "https://1-todo-list.netlify.app/",
+  //   githubLink: "https://github.com/Fawzybasuony/TO_Do_List_local_Storege",
+  //   description:
+  //     "A simple yet powerful to-do list application built with React.js and Local Storage. This project allows users to create, update, and delete tasks, with all data stored locally in the browser. The use of Local Storage ensures that tasks persist even after the browser is closed. The UI is minimalistic and user-friendly, making task management effortless.",
+  // },
 ];
