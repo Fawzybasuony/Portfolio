@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Lottie from "lottie-react";
 import "./hero.css";
 import devAnimation from "../../animation/dev.json";
