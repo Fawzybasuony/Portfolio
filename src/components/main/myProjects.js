@@ -54,7 +54,7 @@ export const myProjects = [
     imgPath: "./cyber-monday-shopping-sales.jpg",
     projectTitle: "Shop Admin",
     projectTag: "Next.js & Bootstrap ,and additional libraries",
-    projectLink: "https://shop-easily.netlify.app/",
+    projectLink: "https://platform-shop-easily.vercel.app/",
     githubLink: "https://github.com/Fawzybasuony/E-commerce_next",
     description:
       "An admin dashboard for managing an e-commerce store, developed using Next.js. This project offers a robust backend with features like product management, order tracking, and user management. The use of Next.js ensures server-side rendering, which enhances performance and SEO. The dashboard is designed to be intuitive, allowing admins to efficiently manage store operations.",
@@ -64,28 +64,28 @@ export const myProjects = [
     imgPath: "./proj_1.jpeg",
     projectTitle: "E-Commerce",
     projectTag: "React.js & Redux Toolkit",
-    projectLink: "https://project-commerce.netlify.app",
+    projectLink: "https://e-ommerce-react-redux.vercel.app",
     githubLink: "https://github.com/Fawzybasuony/E-ommerce-React-Redux",
     description:
       "A fully functional e-commerce platform built with React.js and Redux Toolkit. This project includes features like product listing, shopping cart management, and a seamless checkout process. The use of Redux Toolkit ensures efficient state management, making the application fast and responsive. The UI is designed to be user-friendly, providing a smooth shopping experience.",
   },
 
-  {
-    id: 7,
-    imgPath: "./360_F.jpg",
-    projectTitle: "Movie",
-    projectTag: "React.js & Bootstrap",
-    projectLink: "https://m0veis.netlify.app/",
-    githubLink: "https://github.com/Fawzybasuony/Movis",
-    description:
-      "A movie and TV show browsing platform built with React.js. This project allows users to search, filter, and explore a wide range of movies and TV shows. It integrates with a movie API to fetch real-time data, providing users with up-to-date information. The UI is clean and modern, offering a seamless browsing experience.",
-  },
+  // {
+  //   id: 7,
+  //   imgPath: "./360_F.jpg",
+  //   projectTitle: "Movie",
+  //   projectTag: "React.js & Bootstrap",
+  //   projectLink: "https://movis-gold.vercel.app/",
+  //   githubLink: "https://github.com/Fawzybasuony/Movis",
+  //   description:
+  //     "A movie and TV show browsing platform built with React.js. This project allows users to search, filter, and explore a wide range of movies and TV shows. It integrates with a movie API to fetch real-time data, providing users with up-to-date information. The UI is clean and modern, offering a seamless browsing experience.",
+  // },
   {
     id: 8,
     imgPath: "./slide-01.jpg",
     projectTitle: "Gym Website",
     projectTag: "React.js & Bootstrap",
-    projectLink: "https://startgym.netlify.app/",
+    projectLink: "https://staar-gym.vercel.app/",
     githubLink: "https://github.com/Fawzybasuony/GYM",
     description:
       "A gym membership website developed with React.js. This project allows users to explore gym services, view membership plans, and sign up online. The website features a responsive design, ensuring it works flawlessly on all devices. It also includes a contact form for inquiries and a gallery section to showcase the gym's facilities.",

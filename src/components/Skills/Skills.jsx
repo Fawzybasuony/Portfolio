@@ -1,10 +1,10 @@
 import Buttom from "../main/Buttom";
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaNodeJs, FaReact, FaGithub } from "react-icons/fa";
-import { SiTailwindcss, SiFirebase, SiNextdotjs,SiShadcnui,SiTypescript , SiRedux, SiExpress, SiSupabase, SiMaterialformkdocs } from "react-icons/si";
+import { SiTailwindcss, SiFirebase, SiNextdotjs,SiShadcnui,SiTypescript , SiRedux, SiExpress, SiSupabase, SiMaterialformkdocs, SiReactquery, SiFramer } from "react-icons/si";
 
 // eslint-disable-next-line no-unused-vars
-export default function Skillss({ title }) {
+export default function Skillss( ) {
   const skills = [
     { name: "HTML", icon: <FaHtml5 /> },
     { name: "CSS", icon: <FaCss3Alt /> },
@@ -14,6 +14,8 @@ export default function Skillss({ title }) {
     { name: "Tailwind CSS", icon: <SiTailwindcss /> },
     { name: "Material UI", icon: <SiMaterialformkdocs /> },
     { name: "Shadcn UI", icon: <SiShadcnui /> },
+    { name: "React Query", icon: <SiReactquery /> },
+    { name: "Framer Motion", icon: <SiFramer /> },
     { name: "GitHub & Git", icon: <FaGithub /> },
     { name: "Firebase", icon: <SiFirebase /> },
     { name: "Supabase", icon: <SiSupabase /> },
